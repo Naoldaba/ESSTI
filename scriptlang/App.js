@@ -32,9 +32,9 @@ const navtoggler=document.getElementById('nav-toggler');
 const navdrop=document.getElementById('nav-drop');
 
 const navItems=`
-            <li onclick='toggle()'><a href='home.html'>Home</a></li>
-            <li onclick='toggle()'><a href='home.html#sec-2'>About</a></li>
-            <li onclick='toggle()'><a href='home.html#sec-3'>Astronomy</a></li>
+            <li onclick='toggle()'><a href='index.html'>Home</a></li>
+            <li onclick='toggle()'><a href='index.html#sec-2'>About</a></li>
+            <li onclick='toggle()'><a href='index.html#sec-3'>Astronomy</a></li>
             <li onclick='toggle()'><a href='#footer'>Contact Us</a></li>`
 function toggle() {
     const isOpen=navdrop.style.display==='block';
